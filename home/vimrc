@@ -37,6 +37,8 @@ Plug 'jistr/vim-nerdtree-tabs'      " enhance nerdtree's tabs
 Plug 'Xuyuanp/nerdtree-git-plugin'  " display git status within Nerdtree
 "Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " enhance devicons
 "Plug 'joshdick/onedark.vim'
+Plug 'martinda/Jenkinsfile-vim-syntax'
+Plug 'preservim/nerdcommenter'
 call plug#end()
 autocmd FileType javascript set formatprg=prettier\ --stdin
 syntax on
