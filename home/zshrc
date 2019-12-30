@@ -38,25 +38,6 @@ fi
 bash -c "~/.scripts/loadkeys.sh"
 if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi 2>/dev/null
 for file in $(find ~/.secrets -type f); do source $file > /dev/null; done
-export PATH="~/.pyenv/shims:${PATH}"
-export PYENV_SHELL=zsh
-source '~/.pyenv/libexec/../completions/pyenv.zsh'
-command pyenv rehash 2>/dev/null
-pyenv() {
-  local command
-  command="${1:-}"
-  if [ "$#" -gt 0 ]; then
-    shift
-  fi
-
-  case "$command" in
-  rehash|shell)
-    eval "$(pyenv "sh-$command" "$@")";;
-  *)
-    command pyenv "$command" "$@";;
-  esac
-}
-
 CONTEXT="%{$FG[011]%}\$(getCurrContext 2>/dev/null)%{$reset_color%}"
 export PROMPT="$CONTEXT$PROMPT"
 export EDITOR=nvim
