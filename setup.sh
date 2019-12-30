@@ -12,7 +12,7 @@ rm $C_PATH/scripts/monitor.sh
 ln -s $C_PATH/scripts/changeDisplay.sh $C_PATH/scripts/monitor.sh
 
 # Link home config files
-for file in $(find $C_PATH/home/ -maxdepth 0 -type f ); do
+for file in $(find $C_PATH/home -maxdepth 1 -type f); do
   name=$(basename $file)
   rm $HOME/.$name
   ln -s $file $HOME/.$name
