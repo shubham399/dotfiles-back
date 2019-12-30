@@ -36,7 +36,7 @@ then
 fi
 
 bash -c "~/.scripts/loadkeys.sh"
-if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi
+if [ /usr/local/bin/kubectl ]; then source <(kubectl completion zsh); fi 2>/dev/null
 for file in $(find ~/.secrets -type f); do source $file > /dev/null; done
 export PATH="~/.pyenv/shims:${PATH}"
 export PYENV_SHELL=zsh
@@ -57,5 +57,6 @@ pyenv() {
   esac
 }
 
-export PROMPT="%{$FG[011]%}\$(getCurrContext)%{$reset_color%}$PROMPT"
+CONTEXT="%{$FG[011]%}\$(getCurrContext 2>/dev/null)%{$reset_color%}"
+export PROMPT="$CONTEXT$PROMPT"
 export EDITOR=nvim
