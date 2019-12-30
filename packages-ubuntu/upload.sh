@@ -8,6 +8,5 @@ if [[ $DIFF =~ "packages-ubuntu" ]]; then
     git push -f -q
     echo "$0 Updated git"
 else
-    git reset HEAD~1
     echo "$0 Nothing New backed up"
 fi
