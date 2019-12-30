@@ -4,7 +4,7 @@ cd $DIR
 C_PATH=$(pwd)
 # Link wallpaper
 rm $HOME/.wallpaer.png
-ln -s $C_PATH/Wallpapers/wallpaper.png $HOME/.wallpaer.png
+ln -s $C_PATH/Wallpapers/wallpaper.png $HOME/.wallpaper.png
 
 rm $HOME/.scripts
 ln -s $C_PATH/scripts $HOME/.scripts
@@ -21,7 +21,7 @@ done
 ## Link .config folder
 for file in $C_PATH/config/*; do
   name=$(basename $file)
-  rm $HOME/.config/$name
+  rm -Rf $HOME/.config/$name
   ln -s $file $HOME/.config/$name
 done
 
