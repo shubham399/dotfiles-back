@@ -3,7 +3,7 @@ DIR=$(dirname $0)
 cd $DIR
 C_PATH=$(pwd)
 # Link wallpaper
-rm $HOME/.wallpaer.png
+rm $HOME/.wallpaper.png
 ln -s $C_PATH/Wallpapers/wallpaper.png $HOME/.wallpaper.png
 
 rm $HOME/.scripts
