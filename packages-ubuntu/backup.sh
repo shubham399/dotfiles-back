@@ -3,7 +3,7 @@
 DIR=$(dirname $0)
 # Get all the packages install on the system
 tmp=`mktemp`
-mkdir -p $DIR/sources/$(hostname)
+mkdir -p $DIR/$(hostname)
 dpkg --get-selections > $tmp
 file="$DIR/blacklist.list"
 blacklisted=`mktemp`
@@ -12,11 +12,11 @@ do
    # echo $RE
     sed -r -e '/^('"$RE"')/d' $tmp > $blacklisted
 done
-mv $blacklisted $DIR/package_list
+mv $blacklisted $DIR/$(hostname)/package_list
 ## Backup the sources.list file
-cp /etc/apt/sources.list $DIR/sources/$(hostname)/sources.list
+cp /etc/apt/sources.list $DIR/$(hostname)sources/sources.list
 ## Backup the sources.list.d folder
-cp -r /etc/apt/sources.list.d/ $DIR/sources/$(hostname)/sources.list.d/
+cp -r /etc/apt/sources.list.d/ $DIR/$(hostname)/sources/sources.list.d/
 
 ## TODO: Backup app configs?
 
