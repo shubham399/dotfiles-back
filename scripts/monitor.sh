@@ -1,1 +1,0 @@
-/home/shubham/.scripts/changeDisplay.sh
