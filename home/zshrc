@@ -2,6 +2,18 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="agnoster"
 plugins=(git)
 
+function getCurrContext() {
+  CTX=$(kubectl config current-context 2>/dev/null | awk -F'-' '{print $2}');
+  NAMESPACE=$( kubectl config view --minify --output 'jsonpath={..namespace}')
+  if [[ -n "$CTX" ]];
+  then
+    CTX="<$CTX> %{$FG[032]%}<$NAMESPACE> "
+    echo "$CTX"
+  else
+    echo ""
+  fi
+}
+
 source $ZSH/oh-my-zsh.sh
 source ~/.alias
 
@@ -44,3 +56,6 @@ pyenv() {
     command pyenv "$command" "$@";;
   esac
 }
+
+export PROMPT="%{$FG[011]%}\$(getCurrContext)%{$reset_color%}$PROMPT"
+export EDITOR=nvim
