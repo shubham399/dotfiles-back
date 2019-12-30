@@ -8,6 +8,8 @@ ln -s $C_PATH/Wallpapers/wallpaper.png $HOME/.wallpaer.png
 
 rm $HOME/.scripts
 ln -s $C_PATH/scripts $HOME/.scripts
+rm $C_PATH/scripts/monitor.sh
+ln -s $C_PATH/scripts/changeDisplay.sh $C_PATH/scripts/monitor.sh
 
 # Link home config files
 for file in $(find $C_PATH/home/ -maxdepth 0 -type f ); do
