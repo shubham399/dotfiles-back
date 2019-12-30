@@ -27,6 +27,7 @@ apturl						install
 apturl-common					install
 arandr						install
 archdetect-deb					install
+arp-scan					install
 aspell						install
 aspell-en					install
 at-spi2-core					install
@@ -53,6 +54,7 @@ binutils					install
 binutils-common:amd64				install
 binutils-x86-64-linux-gnu			install
 bison						install
+blt						install
 blueberry					install
 bluetooth					install
 bluez						install
@@ -81,11 +83,12 @@ caja-sendto					install
 caja-wallpaper					install
 casper						install
 cherrytree					install
+chromium-browser				install
+chromium-codecs-ffmpeg-extra			install
 cifs-utils					install
 cinnamon-desktop-data				install
 cli-common					install
 cmdtest						install
-code						install
 colord						install
 colord-data					install
 command-not-found				install
@@ -160,14 +163,12 @@ docbook-dsssl					install
 docbook-to-man					install
 docbook-xml					install
 docbook-xsl					install
-docker						deinstall
 docker-ce					install
 docker-ce-cli					install
 dosfstools					install
 dpkg						install
 dpkg-dev					install
 dpkg-repack					install
-draxed						deinstall
 dunst						install
 e2fslibs:amd64					install
 e2fsprogs					install
@@ -175,6 +176,10 @@ ecryptfs-utils					install
 ed						install
 efibootmgr					install
 eject						install
+elementary-artwork				install
+elementary-desktop				install
+elementary-icon-theme				install
+elementary-theme				install
 emacsen-common					install
 enchant						install
 engrampa					install
@@ -190,7 +195,6 @@ fakeroot					install
 fdisk						install
 file						install
 findutils					install
-fingerprint-gui					install
 firefox						install
 firefox-locale-en				install
 flatpak						install
@@ -250,6 +254,7 @@ fonts-orya					install
 fonts-orya-extra				install
 fonts-pagul					install
 fonts-powerline					install
+fonts-raleway-elementary			install
 fonts-sahadeva					install
 fonts-samyak-deva				install
 fonts-samyak-gujr				install
@@ -305,7 +310,6 @@ fonts-tlwg-waree-ttf				install
 fonts-ubuntu					install
 fonts-wqy-microhei				install
 foomatic-db-compressed-ppds			install
-franz						deinstall
 friendly-recovery				install
 ftp						install
 fuse						install
@@ -412,6 +416,7 @@ gnome-icon-theme				install
 gnome-icon-theme-symbolic			install
 gnome-keyring					install
 gnome-keyring-pkcs11:amd64			install
+gnome-menus					install
 gnome-orca					install
 gnome-session-canberra				install
 gnome-settings-daemon-schemas			install
@@ -420,9 +425,9 @@ gnome-themes-extra:amd64			install
 gnome-themes-extra-data				install
 gnome-themes-standard				install
 gnupg						install
+gnupg-agent					install
 gnupg-l10n					install
 gnupg-utils					install
-google-chrome-stable				install
 gpg						install
 gpg-agent					install
 gpg-wks-client					install
@@ -437,6 +442,8 @@ grub-common					install
 grub-efi-amd64					install
 grub-efi-amd64-bin				install
 grub-efi-amd64-signed				install
+grub-pc						deinstall
+grub-pc-bin					install
 grub2-common					install
 gsettings-desktop-schemas			install
 gsfonts						install
@@ -510,10 +517,11 @@ i3						install
 i3-wm						install
 i3blocks					install
 i3lock						install
-i3status					deinstall
 i965-va-driver:amd64				install
 icu-devtools					install
 ideviceinstaller				install
+idle-python2.7					install
+ieee-data					install
 ifupdown					install
 ifuse						install
 iio-sensor-proxy				install
@@ -559,7 +567,6 @@ kmod						install
 kpartx						install
 kpartx-boot					install
 krb5-locales					install
-kubectl						install
 language-pack-en				install
 language-pack-en-base				install
 language-pack-gnome-en				install
@@ -652,10 +659,10 @@ libboost-system1.65.1:amd64			install
 libboost-thread1.65.1:amd64			install
 libbrlapi0.6:amd64				install
 libbrotli1:amd64				install
-libbsapi					install
 libbsd-dev:amd64				install
 libbsd0:amd64					install
 libbz2-1.0:amd64				install
+libc-ares2:amd64				install
 libc-bin					install
 libc-dev-bin					install
 libc6:amd64					install
@@ -843,7 +850,7 @@ libfont-afm-perl				install
 libfontconfig1:amd64				install
 libfontembed1:amd64				install
 libfontenc1:amd64				install
-libfprint0					install
+libfprint0:amd64				install
 libfreehand-0.1-1				install
 libfreetype6:amd64				install
 libfribidi0:amd64				install
@@ -914,6 +921,7 @@ libgmp10:amd64					install
 libgmpxx4ldbl:amd64				install
 libgnome-2-0:amd64				install
 libgnome-bluetooth13:amd64			install
+libgnome-desktop-3-17:amd64			install
 libgnome-keyring-common				install
 libgnome-keyring0:amd64				install
 libgnome2-canvas-perl				install
@@ -944,6 +952,8 @@ libgphoto2-port12:amd64				install
 libgpm2:amd64					install
 libgpod-common					install
 libgpod4:amd64					install
+libgranite-common				install
+libgranite5:amd64				install
 libgraphene-1.0-0:amd64				install
 libgraphite2-3:amd64				install
 libgraphite2-dev:amd64				install
@@ -1106,7 +1116,6 @@ liblivemedia62:amd64				install
 libllvm6.0:amd64				install
 libllvm8:amd64					install
 liblocale-gettext-perl				install
-liblog4c3					deinstall
 liblouis-data					install
 liblouis14:amd64				install
 liblouisutdml-bin				install
@@ -1146,6 +1155,7 @@ libmatemixer0:amd64				install
 libmateweather-common				install
 libmateweather1:amd64				install
 libmatroska6v5:amd64				install
+libmaxminddb0:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
 libmessaging-menu0:amd64			install
@@ -1180,11 +1190,13 @@ libmpeg2-4:amd64				install
 libmpfr6:amd64					install
 libmpg123-0:amd64				install
 libmpx2:amd64					install
+libmspack0:amd64				install
 libmspub-0.1-1:amd64				install
 libmtdev1:amd64					install
 libmtp-common					install
 libmtp-runtime					install
 libmtp9:amd64					install
+libmutter-2-0:amd64				install
 libmwaw-0.3-3:amd64				install
 libmythes-1.2-0:amd64				install
 libnatpmp1					install
@@ -1317,6 +1329,7 @@ libpulse0:amd64					install
 libpulsedsp:amd64				install
 libpwquality-common				install
 libpwquality1:amd64				install
+libpyside1.2:amd64				install
 libpython-dev:amd64				install
 libpython-stdlib:amd64				install
 libpython2.7:amd64				install
@@ -1334,9 +1347,16 @@ libqmi-proxy					install
 libqpdf21:amd64					install
 libqt4-dbus:amd64				install
 libqt4-declarative:amd64			install
+libqt4-designer:amd64				install
+libqt4-help:amd64				install
 libqt4-network:amd64				install
+libqt4-opengl:amd64				install
 libqt4-script:amd64				install
+libqt4-scripttools:amd64			install
 libqt4-sql:amd64				install
+libqt4-sql-sqlite:amd64				install
+libqt4-svg:amd64				install
+libqt4-test:amd64				install
 libqt4-xml:amd64				install
 libqt4-xmlpatterns:amd64			install
 libqt5core5a:amd64				install
@@ -1347,6 +1367,7 @@ libqt5sql5:amd64				install
 libqt5svg5:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
+libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
 libqtdbus4:amd64				install
 libqtgui4:amd64					install
@@ -1360,6 +1381,9 @@ librdf0:amd64					install
 libreadline-dev:amd64				install
 libreadline5:amd64				install
 libreadline7:amd64				install
+libreoffice-base				deinstall
+libreoffice-common				deinstall
+libreoffice-core				deinstall
 libresid-builder0c2a				install
 librest-0.7-0:amd64				install
 librevenge-0.0-0:amd64				install
@@ -1392,6 +1416,7 @@ libserd-0-0:amd64				install
 libservlet-api-java				install
 libservlet3.1-java				install
 libsgutils2-2					install
+libshiboken1.2v5:amd64				install
 libshine3:amd64					install
 libshout3:amd64					install
 libsidplay2					install
@@ -1402,6 +1427,8 @@ libsm6:amd64					install
 libsmartcols1:amd64				install
 libsmbclient:amd64				install
 libsmbios-c2					install
+libsmi2ldbl:amd64				install
+libsnapd-glib1:amd64				install
 libsnappy1v5:amd64				install
 libsndfile1:amd64				install
 libsndio6.1:amd64				install
@@ -1415,11 +1442,11 @@ libsoundtouch1:amd64				install
 libsoup-gnome2.4-1:amd64			install
 libsoup2.4-1:amd64				install
 libsoxr0:amd64					install
+libspandsp2:amd64				install
 libspectre1:amd64				install
 libspeechd2:amd64				install
 libspeex1:amd64					install
 libspeexdsp1:amd64				install
-libspotify12					install
 libsqlite3-0:amd64				install
 libsratom-0-0:amd64				install
 libss2:amd64					install
@@ -1442,6 +1469,7 @@ libtag1v5:amd64					install
 libtag1v5-vanilla:amd64				install
 libtalloc2:amd64				install
 libtasn1-6:amd64				install
+libtcl8.6:amd64					install
 libtdb1:amd64					install
 libteamdctl0:amd64				install
 libtevent0:amd64				install
@@ -1459,6 +1487,7 @@ libtimezonemap-data				install
 libtimezonemap1:amd64				install
 libtinfo-dev:amd64				install
 libtinfo5:amd64					install
+libtk8.6:amd64					install
 libtool						install
 libtotem-plparser-common			install
 libtotem-plparser18:amd64			install
@@ -1466,6 +1495,7 @@ libtry-tiny-perl				install
 libtsan0:amd64					install
 libtwolame0:amd64				install
 libtypes-serialiser-perl			install
+libu2f-udev					install
 libubsan0:amd64					install
 libudev1:amd64					install
 libudisks2-0:amd64				install
@@ -1526,6 +1556,9 @@ libwebpmux3:amd64				install
 libwebrtc-audio-processing1:amd64		install
 libwebsocket-api-java				install
 libwind0-heimdal:amd64				install
+libwireshark-data				install
+libwireshark11:amd64				install
+libwiretap8:amd64				install
 libwmf0.2-7:amd64				install
 libwmf0.2-7-gtk					install
 libwnck-3-0:amd64				install
@@ -1537,6 +1570,8 @@ libwpd-0.10-10:amd64				install
 libwpg-0.3-3:amd64				install
 libwps-0.4-4:amd64				install
 libwrap0:amd64					install
+libwscodecs2:amd64				install
+libwsutil9:amd64				install
 libwww-mechanize-perl				install
 libwww-perl					install
 libwww-robotrules-perl				install
@@ -1566,6 +1601,7 @@ libxcb-present0:amd64				install
 libxcb-randr0:amd64				install
 libxcb-render-util0:amd64			install
 libxcb-render0:amd64				install
+libxcb-res0:amd64				install
 libxcb-shape0:amd64				install
 libxcb-shm0:amd64				install
 libxcb-sync1:amd64				install
@@ -1609,6 +1645,7 @@ libxml2:amd64					install
 libxml2-dev:amd64				install
 libxmlsec1:amd64				install
 libxmlsec1-nss:amd64				install
+libxmlsec1-openssl:amd64			install
 libxmu6:amd64					install
 libxmuu1:amd64					install
 libxplayer-plparser18				install
@@ -1642,8 +1679,6 @@ libzip4:amd64					install
 libzstd1:amd64					install
 libzvbi-common					install
 libzvbi0:amd64					install
-light						install
-light-dbgsym					install
 lightdm						install
 lightdm-settings				install
 lintian						install
@@ -1754,11 +1789,6 @@ mlocate						install
 mobile-broadband-provider-info			install
 modemmanager					install
 mokutil						install
-mongodb-org					install
-mongodb-org-mongos				install
-mongodb-org-server				install
-mongodb-org-shell				install
-mongodb-org-tools				install
 mono-4.0-gac					install
 mono-gac					install
 mono-runtime					install
@@ -1768,10 +1798,10 @@ mount						install
 mousetweaks					install
 mozo						install
 mscompress					install
-msgpack-tools					install
 mtools						install
 mtr-tiny					install
 multiarch-support				install
+mutter-common					install
 mythes-de					install
 mythes-de-ch					install
 mythes-en-au					install
@@ -1802,6 +1832,7 @@ nplan						install
 ntfs-3g						install
 ntp						install
 ntpdate						install
+numlockx					install
 nvidia-prime-applet				install
 obex-data-server				install
 ocl-icd-dev:amd64				install
@@ -1809,6 +1840,8 @@ ocl-icd-libopencl1:amd64			install
 ocl-icd-opencl-dev:amd64			install
 onboard						install
 onboard-common					install
+open-vm-tools					install
+open-vm-tools-desktop				install
 opencl-c-headers				install
 openjade					install
 openjdk-11-jre:amd64				install
@@ -1832,6 +1865,8 @@ p7zip						install
 p7zip-full					install
 packagekit					install
 packagekit-tools				install
+pantheon					install
+pantheon-greeter				install
 parallel					install
 parted						install
 passwd						install
@@ -1843,7 +1878,6 @@ perl						install
 perl-base					install
 perl-modules-5.26				install
 perl-openssl-defaults:amd64			install
-pgdg-keyring					install
 pinentry-curses					install
 pinentry-gnome3					install
 pix						install
@@ -1855,7 +1889,6 @@ plymouth-label					install
 plymouth-theme-ubuntu-text			install
 pm-utils					install
 policykit-1					install
-policykit-1-fingerprint-gui			install
 policykit-1-gnome				install
 policykit-desktop-privileges			install
 poppler-data					install
@@ -1919,11 +1952,18 @@ python-pbr					install
 python-pip					install
 python-pip-whl					install
 python-pkg-resources				install
+python-pyside.qtcore				install
+python-pyside.qtgui				install
+python-pyside.qtopengl				install
+python-qt4					install
+python-qt4-gl					install
 python-samba					install
 python-setproctitle:amd64			install
+python-sip					install
 python-six					install
 python-talloc					install
 python-tdb					install
+python-tk					install
 python-trollius					install
 python-ttystatus				install
 python-xdg					install
@@ -1994,6 +2034,8 @@ python3.6					install
 python3.6-minimal				install
 qdbus						install
 qpdf						install
+qt4-designer					install
+qt4-dev-tools					install
 qt5-gtk-platformtheme:amd64			install
 qt5-style-plugins:amd64				install
 qt5ct						install
@@ -2045,10 +2087,12 @@ silversearcher-ag				install
 simple-scan					install
 slick-greeter					install
 socat						install
+software-properties-common			install
 sound-theme-freedesktop				install
 speech-dispatcher				install
 speech-dispatcher-audio-plugins:amd64		install
 speech-dispatcher-espeak-ng			install
+spice-vdagent					install
 sqlite3						install
 squashfs-tools					install
 ssh-askpass-gnome				install
@@ -2084,15 +2128,13 @@ thunderbird-locale-en				install
 thunderbird-locale-en-us			install
 time						install
 timeshift					install
-tizcastd					deinstall
-tizonia-config					deinstall
-tizrmd						deinstall
+tk8.6-blt2.5					install
 tmux						install
 tomboy						install
-touchpad-indicator				install
 transmission-common				install
 transmission-gtk				install
 tree						install
+tshark						install
 ttf-ancient-fonts-symbola			install
 ttf-ubuntu-font-family				install
 tzdata						install
@@ -2142,6 +2184,7 @@ wget						install
 whiptail					install
 wireless-regdb					install
 wireless-tools					install
+wireshark-common				install
 witalian					install
 wmctrl						install
 wngerman					install
@@ -2233,7 +2276,6 @@ yelp						install
 yelp-xsl					install
 zenity						install
 zenity-common					install
-zerotier-one					install
 zip						install
 zlib1g:amd64					install
 zlib1g-dev:amd64				install
