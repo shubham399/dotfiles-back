@@ -1,0 +1,108 @@
+# i3blocks config file
+#
+# Please see man i3blocks for a complete reference!
+# The man page is also hosted at http://vivien.github.io/i3blocks
+#
+# List of valid properties:
+#
+# align
+# color
+# command
+# full_text
+# instance
+# interval
+# label
+# min_width
+# name
+# separator
+# separator_block_width
+# short_text
+# signal
+# urgent
+
+# Global properties
+command=/usr/share/i3blocks/$BLOCK_NAME
+separator_block_width=25
+markup=pango
+
+
+#[song]
+#command=~/scripts/current_track.sh
+#label=
+#interval=1
+#color=#87AFAF
+
+[volume]
+label=
+instance=Master
+#instance=PCM
+interval=1
+signal=10
+color=#FFAF00
+
+
+[temperature]
+#label=temp
+interval=10
+color=#87AF87
+
+
+# [mail]
+# label=
+# command=python3 ~/scripts/unread.py
+# interval=900
+
+[iface]
+#instance=wlan0
+color=#87AF87
+interval=10
+
+[wifi]
+label=
+#instance=wlan0
+instance=wlp3s0
+color=#00FF00
+interval=10
+
+#[ethernet]
+#label=E
+#instance=eth0
+#instance=enp0s25
+#command=/usr/share/i3blocks/network
+#color=#00FF00
+#interval=10
+
+#[cpu_usage]
+#label=
+#interval=10
+#min_width= 100.00%
+#separator=false
+
+[load_average]
+label=
+color=#00FF00
+interval=1
+
+[battery]
+label=⚡
+color=#00FF00
+interval=15
+
+[time]
+command=date '+%a, %d-%b-%Y %H:%M'
+interval=5
+color=#A083E9
+
+#[keyindicator]
+#instance=CAPS
+#interval=once
+#signal=11
+
+#[keyindicator]
+#instance=NUM
+#interval=once
+#signal=11
+
+# [shutdown_menu]
+# full_text=
+# command=~/scripts/shutdown_menu -c
