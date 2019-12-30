@@ -16,7 +16,7 @@ mv $blacklisted $DIR/package_list
 ## Backup the sources.list file
 cp /etc/apt/sources.list $DIR/sources/$(hostname)/sources.list
 ## Backup the sources.list.d folder
-cp -r /etc/apt/sources.list.d/ $DIR/sources/$(hostname)sources.list.d/
+cp -r /etc/apt/sources.list.d/ $DIR/sources/$(hostname)/sources.list.d/
 
 ## TODO: Backup app configs?
 
