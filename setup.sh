@@ -10,11 +10,18 @@ rm $HOME/.scripts
 ln -s $C_PATH/scripts $HOME/.scripts
 
 # Link home config files
-for file in $C_PATH/home/*; do
+for file in $(find $C_PATH/home/ -maxdepth 0 -type f ); do
   name=$(basename $file)
   rm $HOME/.$name
   ln -s $file $HOME/.$name
 done
-# echo ${array[@]}
-# ln -s $(pwd)/home/vimrc $HOME/.vimrc
-# ln -s $(pwd)/home/zshrc $HOME/.zshrc
+
+## Link .config folder
+for file in $C_PATH/config/*; do
+  name=$(basename $file)
+  rm $HOME/.config/$name
+  ln -s $file $HOME/.config/$name
+done
+
+
+echo "Setup Complete"
