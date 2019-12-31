@@ -25,5 +25,8 @@ for file in $C_PATH/config/*; do
   ln -s $file $HOME/.config/$name
 done
 
-
+## Link nvim as using same config as vim
+mkdir -p $HOME/.config/nvim
+rm -R $HOME/.config/nvim/init.vim
+ln -s $C_PATH/home/vimrc $HOME/.config/nvim/init.vim
 echo "Setup Complete"
