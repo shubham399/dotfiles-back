@@ -2003,9 +2003,6 @@ qttranslations5-l10n				install
 rarian-compat					install
 rdate						install
 readline-common					install
-redis						install
-redis-server					install
-redis-tools					install
 redshift					install
 redshift-gtk					install
 reiserfsprogs					install
