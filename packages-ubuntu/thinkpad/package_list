@@ -1442,6 +1442,7 @@ libtag1v5:amd64					install
 libtag1v5-vanilla:amd64				install
 libtalloc2:amd64				install
 libtasn1-6:amd64				install
+libtcl8.6:amd64					install
 libtdb1:amd64					install
 libteamdctl0:amd64				install
 libtevent0:amd64				install
@@ -2070,6 +2071,8 @@ sysvinit-utils					install
 t1utils						install
 tar						install
 taskwarrior					install
+tcl						install
+tcl8.6						install
 tcpd						install
 tcpdump						install
 telnet						install
