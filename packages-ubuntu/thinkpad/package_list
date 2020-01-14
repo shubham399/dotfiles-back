@@ -1370,6 +1370,7 @@ librpmio8					install
 librsvg2-2:amd64				install
 librsvg2-common:amd64				install
 librtmp1:amd64					install
+libruby2.5:amd64				install
 libsamplerate0:amd64				install
 libsane-common					install
 libsane-hpaio:amd64				install
@@ -2001,6 +2002,7 @@ qt5ct						install
 qtchooser					install
 qtcore4-l10n					install
 qttranslations5-l10n				install
+rake						install
 rarian-compat					install
 rdate						install
 readline-common					install
@@ -2020,6 +2022,16 @@ rpm2cpio					install
 rsync						install
 rsyslog						install
 rtkit						install
+ruby						install
+ruby-dev:amd64					install
+ruby-did-you-mean				install
+ruby-minitest					install
+ruby-net-telnet					install
+ruby-power-assert				install
+ruby-test-unit					install
+ruby2.5						install
+ruby2.5-dev:amd64				install
+rubygems-integration				install
 rxvt-unicode					install
 samba-common					install
 samba-common-bin				install
