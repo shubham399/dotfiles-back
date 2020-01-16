@@ -1811,6 +1811,8 @@ onboard						install
 onboard-common					install
 opencl-c-headers				install
 openjade					install
+openjdk-11-jdk:amd64				install
+openjdk-11-jdk-headless:amd64			install
 openjdk-11-jre:amd64				install
 openjdk-11-jre-headless:amd64			install
 openjdk-8-jdk:amd64				install
