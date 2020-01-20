@@ -1103,7 +1103,7 @@ liblirc-client0:amd64				install
 liblist-moreutils-perl				install
 liblivemedia62:amd64				install
 libllvm6.0:amd64				install
-libllvm8:amd64					install
+libllvm9:amd64					install
 liblocale-gettext-perl				install
 liblog4c3					deinstall
 liblouis-data					install
