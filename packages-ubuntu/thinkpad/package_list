@@ -1986,6 +1986,7 @@ python3-six					install
 python3-speechd					install
 python3-systemd					install
 python3-urllib3					install
+python3-venv					install
 python3-virtualenv				install
 python3-xapp					install
 python3-xdg					install
@@ -1994,6 +1995,7 @@ python3-xlib					install
 python3-yaml					install
 python3.6					install
 python3.6-minimal				install
+python3.6-venv					install
 qdbus						install
 qpdf						install
 qt5-gtk-platformtheme:amd64			install
