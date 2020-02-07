@@ -423,6 +423,7 @@ gnupg						install
 gnupg-l10n					install
 gnupg-utils					install
 google-chrome-stable				install
+google-cloud-sdk				install
 gpg						install
 gpg-agent					install
 gpg-wks-client					install
