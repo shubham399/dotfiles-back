@@ -3,6 +3,7 @@ acl						install
 acpi						install
 acpi-support					install
 acpid						install
+adb						install
 add-apt-key					install
 adduser						install
 adwaita-icon-theme				install
@@ -10,6 +11,20 @@ alacritty					install
 alsa-base					install
 alsa-utils					install
 anacron						install
+android-libadb					install
+android-libbacktrace				install
+android-libbase					install
+android-libboringssl				install
+android-libcrypto-utils				install
+android-libcutils				install
+android-libf2fs-utils				install
+android-liblog					install
+android-libsparse				install
+android-libunwind				install
+android-libutils				install
+android-libziparchive				install
+android-tools-adb				install
+android-tools-fastboot				install
 apg						install
 app-install-data				install
 apparmor					install
@@ -187,6 +202,7 @@ exfat-fuse					install
 exfat-utils					install
 exuberant-ctags					install
 fakeroot					install
+fastboot					install
 fdisk						install
 file						install
 finalrd						install
@@ -821,6 +837,8 @@ libexporter-tiny-perl				install
 libext2fs2:amd64				install
 libexttextcat-2.0-0:amd64			install
 libexttextcat-data				install
+libf2fs-format4:amd64				install
+libf2fs5:amd64					install
 libfaad2:amd64					install
 libfakekey0:amd64				install
 libfakeroot:amd64				install
