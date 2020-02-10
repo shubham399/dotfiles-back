@@ -189,6 +189,7 @@ exuberant-ctags					install
 fakeroot					install
 fdisk						install
 file						install
+finalrd						install
 findutils					install
 fingerprint-gui					install
 firefox						install
