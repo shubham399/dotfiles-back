@@ -68,6 +68,7 @@ binutils					install
 binutils-common:amd64				install
 binutils-x86-64-linux-gnu			install
 bison						install
+blt						install
 blueberry					install
 bluetooth					install
 bluez						install
@@ -533,6 +534,7 @@ i3status					deinstall
 i965-va-driver:amd64				install
 icu-devtools					install
 ideviceinstaller				install
+idle-python2.7					install
 ifupdown					install
 ifuse						install
 iio-sensor-proxy				install
@@ -1193,10 +1195,12 @@ libmono-system4.0-cil				install
 libmount1:amd64					install
 libmouse-perl					install
 libmp3lame0:amd64				install
+libmpc-dev:amd64				install
 libmpc3:amd64					install
 libmpcdec6:amd64				install
 libmpdec2:amd64					install
 libmpeg2-4:amd64				install
+libmpfr-dev:amd64				install
 libmpfr6:amd64					install
 libmpg123-0:amd64				install
 libmpx2:amd64					install
@@ -1337,6 +1341,7 @@ libpulse0:amd64					install
 libpulsedsp:amd64				install
 libpwquality-common				install
 libpwquality1:amd64				install
+libpyside1.2:amd64				install
 libpython-dev:amd64				install
 libpython-stdlib:amd64				install
 libpython2.7:amd64				install
@@ -1356,9 +1361,16 @@ libqmi-proxy					install
 libqpdf21:amd64					install
 libqt4-dbus:amd64				install
 libqt4-declarative:amd64			install
+libqt4-designer:amd64				install
+libqt4-help:amd64				install
 libqt4-network:amd64				install
+libqt4-opengl:amd64				install
 libqt4-script:amd64				install
+libqt4-scripttools:amd64			install
 libqt4-sql:amd64				install
+libqt4-sql-sqlite:amd64				install
+libqt4-svg:amd64				install
+libqt4-test:amd64				install
 libqt4-xml:amd64				install
 libqt4-xmlpatterns:amd64			install
 libqt5core5a:amd64				install
@@ -1369,6 +1381,7 @@ libqt5sql5:amd64				install
 libqt5svg5:amd64				install
 libqt5widgets5:amd64				install
 libqt5x11extras5:amd64				install
+libqtassistantclient4:amd64			install
 libqtcore4:amd64				install
 libqtdbus4:amd64				install
 libqtgui4:amd64					install
@@ -1414,6 +1427,7 @@ libserd-0-0:amd64				install
 libservlet-api-java				install
 libservlet3.1-java				install
 libsgutils2-2					install
+libshiboken1.2v5:amd64				install
 libshine3:amd64					install
 libshout3:amd64					install
 libsidplay2					install
@@ -1482,6 +1496,7 @@ libtimezonemap-data				install
 libtimezonemap1:amd64				install
 libtinfo-dev:amd64				install
 libtinfo5:amd64					install
+libtk8.6:amd64					install
 libtool						install
 libtotem-plparser-common			install
 libtotem-plparser18:amd64			install
@@ -1944,11 +1959,19 @@ python-pbr					install
 python-pip					install
 python-pip-whl					install
 python-pkg-resources				install
+python-pyrex					install
+python-pyside.qtcore				install
+python-pyside.qtgui				install
+python-pyside.qtopengl				install
+python-qt4					install
+python-qt4-gl					install
 python-samba					install
 python-setproctitle:amd64			install
+python-sip					install
 python-six					install
 python-talloc					install
 python-tdb					install
+python-tk					install
 python-trollius					install
 python-ttystatus				install
 python-xdg					install
@@ -2023,6 +2046,8 @@ python3.6-minimal				install
 python3.6-venv					install
 qdbus						install
 qpdf						install
+qt4-designer					install
+qt4-dev-tools					install
 qt5-gtk-platformtheme:amd64			install
 qt5-style-plugins:amd64				install
 qt5ct						install
@@ -2115,6 +2140,7 @@ timeshift					install
 tizcastd					deinstall
 tizonia-config					deinstall
 tizrmd						deinstall
+tk8.6-blt2.5					install
 tmux						install
 tomboy						install
 touchpad-indicator				install
