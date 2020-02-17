@@ -154,6 +154,7 @@ debianutils					install
 default-jre					install
 default-jre-headless				install
 desktop-file-utils				install
+dh-python					install
 dialog						install
 dictionaries-common				install
 diffstat					install
@@ -1342,8 +1343,10 @@ libpython2.7:amd64				install
 libpython2.7-dev:amd64				install
 libpython2.7-minimal:amd64			install
 libpython2.7-stdlib:amd64			install
+libpython3-dev:amd64				install
 libpython3-stdlib:amd64				install
 libpython3.6:amd64				install
+libpython3.6-dev:amd64				install
 libpython3.6-minimal:amd64			install
 libpython3.6-stdlib:amd64			install
 libqca2:amd64					install
@@ -1972,6 +1975,7 @@ python3-cupshelpers				install
 python3-dbus					install
 python3-debian					install
 python3-defer					install
+python3-dev					install
 python3-distutils				install
 python3-evdev					install
 python3-gdbm:amd64				install
@@ -2014,6 +2018,7 @@ python3-xkit					install
 python3-xlib					install
 python3-yaml					install
 python3.6					install
+python3.6-dev					install
 python3.6-minimal				install
 python3.6-venv					install
 qdbus						install
