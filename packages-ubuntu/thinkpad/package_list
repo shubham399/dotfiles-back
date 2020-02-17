@@ -329,6 +329,7 @@ friendly-recovery				install
 ftp						install
 fuse						install
 fwupd						install
+fwupd-signed					install
 fwupdate					install
 fwupdate-signed					install
 g++						install
@@ -1645,6 +1646,7 @@ libxml-twig-perl				install
 libxml-xpathengine-perl				install
 libxml2:amd64					install
 libxml2-dev:amd64				install
+libxmlb1:amd64					install
 libxmlsec1:amd64				install
 libxmlsec1-nss:amd64				install
 libxmu6:amd64					install
