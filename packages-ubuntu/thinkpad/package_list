@@ -67,6 +67,7 @@ bind9-host					install
 binutils					install
 binutils-common:amd64				install
 binutils-x86-64-linux-gnu			install
+binwalk						install
 bison						install
 blt						install
 blueberry					install
@@ -1987,6 +1988,7 @@ python3-apport					install
 python3-apt					install
 python3-aptdaemon				install
 python3-aptdaemon.gtk3widgets			install
+python3-binwalk					install
 python3-brlapi					install
 python3-bs4					install
 python3-cairo:amd64				install
