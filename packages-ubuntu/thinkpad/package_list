@@ -1942,6 +1942,7 @@ python-configobj				install
 python-crypto					install
 python-dbus					install
 python-dev					install
+python-dnspython				install
 python-enchant					install
 python-funcsigs					install
 python-gi					install
@@ -2078,6 +2079,7 @@ rsync						install
 rsyslog						install
 rtkit						install
 rxvt-unicode					install
+samba						install
 samba-common					install
 samba-common-bin				install
 samba-libs:amd64				install
@@ -2132,6 +2134,7 @@ tcl						install
 tcl8.6						install
 tcpd						install
 tcpdump						install
+tdb-tools					install
 telnet						install
 thermald					install
 thinkfan					install
