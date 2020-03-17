@@ -2195,6 +2195,7 @@ vlc-data					install
 vlc-plugin-base:amd64				install
 vlc-plugin-qt:amd64				install
 vlc-plugin-video-output:amd64			install
+vnc4server					install
 wamerican					install
 wbrazilian					install
 wbritish					install
@@ -2224,6 +2225,7 @@ x11proto-kb-dev					install
 xapps-common					install
 xauth						install
 xbacklight					install
+xbase-clients					install
 xbitmaps					install
 xbrlapi						install
 xclip						install
