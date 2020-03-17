@@ -2168,7 +2168,6 @@ thunderbird					install
 thunderbird-gnome-support			install
 thunderbird-locale-en				install
 thunderbird-locale-en-us			install
-tightvncserver					install
 time						install
 timeshift					install
 tizcastd					deinstall
