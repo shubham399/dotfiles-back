@@ -2168,6 +2168,7 @@ thunderbird					install
 thunderbird-gnome-support			install
 thunderbird-locale-en				install
 thunderbird-locale-en-us			install
+tightvncserver					install
 time						install
 timeshift					install
 tizcastd					deinstall
@@ -2250,7 +2251,6 @@ x11proto-kb-dev					install
 xapps-common					install
 xauth						install
 xbacklight					install
-xbase-clients					install
 xbitmaps					install
 xbrlapi						install
 xclip						install
