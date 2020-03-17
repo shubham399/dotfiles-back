@@ -641,7 +641,6 @@ libauthen-sasl-perl				install
 libavahi-client3:amd64				install
 libavahi-common-data:amd64			install
 libavahi-common3:amd64				install
-libavahi-compat-libdnssd1:amd64			install
 libavahi-core7:amd64				install
 libavahi-glib1:amd64				install
 libavc1394-0:amd64				install
