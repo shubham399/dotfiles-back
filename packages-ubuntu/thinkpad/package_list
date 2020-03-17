@@ -2238,6 +2238,7 @@ strace						install
 suckless-tools					install
 sudo						install
 synaptic					install
+synergy						install
 syslinux					install
 syslinux-common					install
 syslinux-legacy					install
