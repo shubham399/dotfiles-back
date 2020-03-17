@@ -2062,7 +2062,7 @@ qttranslations5-l10n				install
 rarian-compat					install
 rdate						install
 readline-common					install
-realvnc-vnc-server				install
+realvnc-vnc-server				deinstall
 redshift					install
 redshift-gtk					install
 reiserfsprogs					install
@@ -2143,6 +2143,7 @@ thunderbird					install
 thunderbird-gnome-support			install
 thunderbird-locale-en				install
 thunderbird-locale-en-us			install
+tightvncserver					install
 time						install
 timeshift					install
 tizcastd					deinstall
