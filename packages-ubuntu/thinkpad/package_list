@@ -2221,6 +2221,7 @@ vlc-data					install
 vlc-plugin-base:amd64				install
 vlc-plugin-qt:amd64				install
 vlc-plugin-video-output:amd64			install
+vnc4server					install
 wamerican					install
 wbrazilian					install
 wbritish					install
