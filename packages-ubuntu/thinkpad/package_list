@@ -2062,6 +2062,7 @@ qttranslations5-l10n				install
 rarian-compat					install
 rdate						install
 readline-common					install
+realvnc-vnc-server				install
 redshift					install
 redshift-gtk					install
 reiserfsprogs					install
