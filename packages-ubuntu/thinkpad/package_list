@@ -1992,6 +1992,7 @@ p7zip-full					install
 packagekit					install
 packagekit-tools				install
 parallel					install
+parsec						install
 parted						install
 passwd						install
 patch						install
