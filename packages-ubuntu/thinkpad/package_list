@@ -2225,6 +2225,7 @@ shutter						install
 silversearcher-ag				install
 simple-scan					install
 slick-greeter					install
+snapd						install
 socat						install
 sound-theme-freedesktop				install
 speech-dispatcher				install
