@@ -584,6 +584,7 @@ iso-flag-png					install
 iw						install
 java-common					install
 jfsutils					install
+jose						install
 jq						install
 kbd						install
 kerneloops					install
@@ -1133,6 +1134,7 @@ libjavascriptcoregtk-3.0-0:amd64		install
 libjavascriptcoregtk-4.0-18:amd64		install
 libjbig0:amd64					install
 libjbig2dec0:amd64				install
+libjose0:amd64					install
 libjpeg-turbo-progs				install
 libjpeg-turbo8:amd64				install
 libjpeg8:amd64					install
