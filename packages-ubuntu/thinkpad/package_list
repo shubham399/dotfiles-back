@@ -446,6 +446,14 @@ gnome-themes-standard				install
 gnupg						install
 gnupg-l10n					install
 gnupg-utils					install
+golang						install
+golang-1.10					install
+golang-1.10-doc					install
+golang-1.10-go					install
+golang-1.10-src					install
+golang-doc					install
+golang-go					install
+golang-src					install
 google-chrome-stable				install
 google-cloud-sdk				install
 gpg						install
