@@ -2234,6 +2234,7 @@ shim-signed					install
 shutter						install
 silversearcher-ag				install
 simple-scan					install
+slack-desktop					install
 slick-greeter					install
 snapd						install
 socat						install
