@@ -2328,6 +2328,7 @@ vim						install
 vim-common					install
 vim-runtime					install
 vim-tiny					install
+virtualbox-6.1					install
 virtualenv					install
 vlc						install
 vlc-bin						install
