@@ -1447,6 +1447,7 @@ libqt5core5a:amd64				install
 libqt5dbus5:amd64				install
 libqt5gui5:amd64				install
 libqt5network5:amd64				install
+libqt5opengl5:amd64				install
 libqt5printsupport5:amd64			install
 libqt5sql5:amd64				install
 libqt5svg5:amd64				install
