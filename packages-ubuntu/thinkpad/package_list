@@ -470,6 +470,7 @@ grub-common					install
 grub-efi-amd64					install
 grub-efi-amd64-bin				install
 grub-efi-amd64-signed				install
+grub-pc-bin					install
 grub2-common					install
 gsettings-desktop-schemas			install
 gsfonts						install
