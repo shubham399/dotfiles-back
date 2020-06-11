@@ -2458,10 +2458,8 @@ xorg						install
 xorg-dev					install
 xorg-docs-core					install
 xorg-sgml-doctools				install
-xplayer						install
+xplayer						deinstall
 xplayer-common					install
-xplayer-dbg					install
-xplayer-plugins					install
 xreader						install
 xreader-common					install
 xreader-dbg					install
