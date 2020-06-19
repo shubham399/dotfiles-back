@@ -1387,6 +1387,7 @@ libpkcs11-helper1:amd64				install
 libplist3:amd64					install
 libplymouth4:amd64				install
 libpng-dev:amd64				install
+libpng12-0:amd64				install
 libpng16-16:amd64				install
 libpolkit-agent-1-0:amd64			install
 libpolkit-backend-1-0:amd64			install
