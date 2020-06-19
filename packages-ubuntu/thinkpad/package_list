@@ -1940,6 +1940,7 @@ mono-gac					install
 mono-runtime					install
 mono-runtime-common				install
 mono-runtime-sgen				install
+mosh						install
 mount						install
 mousepad					install
 mousetweaks					install
