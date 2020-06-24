@@ -982,6 +982,7 @@ libgmime-3.0-0:amd64				install
 libgmime2.6-cil					install
 libgmp-dev:amd64				install
 libgmp10:amd64					install
+libgmp3-dev					install
 libgmpxx4ldbl:amd64				install
 libgnome-2-0:amd64				install
 libgnome-bluetooth13:amd64			install
