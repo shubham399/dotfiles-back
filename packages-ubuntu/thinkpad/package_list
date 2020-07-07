@@ -709,6 +709,7 @@ libbsd0:amd64					install
 libbsd0:i386					install
 libburn4:amd64					install
 libbz2-1.0:amd64				install
+libc-ares2:amd64				install
 libc-bin					install
 libc-dev-bin					install
 libc6:amd64					install
@@ -1251,6 +1252,7 @@ libmatemixer-common				install
 libmatemixer0:amd64				install
 libmateweather-common				install
 libmateweather1:amd64				install
+libmaxminddb0:amd64				install
 libmbim-glib4:amd64				install
 libmbim-proxy					install
 libmessaging-menu0:amd64			install
@@ -1333,6 +1335,7 @@ libnice10:amd64					install
 libnih1:amd64					install
 libnl-3-200:amd64				install
 libnl-genl-3-200:amd64				install
+libnl-route-3-200:amd64				install
 libnm-glib4:amd64				install
 libnm-util2:amd64				install
 libnm0:amd64					install
@@ -1488,6 +1491,7 @@ libqt5concurrent5:amd64				install
 libqt5core5a:amd64				install
 libqt5dbus5:amd64				install
 libqt5gui5:amd64				install
+libqt5multimedia5:amd64				install
 libqt5network5:amd64				install
 libqt5opengl5:amd64				install
 libqt5printsupport5:amd64			install
@@ -1555,7 +1559,7 @@ libsm6:amd64					install
 libsmartcols1:amd64				install
 libsmbclient:amd64				install
 libsmbios-c2					install
-libsmi2ldbl:amd64				deinstall
+libsmi2ldbl:amd64				install
 libsnappy1v5:amd64				install
 libsndfile1:amd64				install
 libsndio6.1:amd64				install
@@ -1690,7 +1694,9 @@ libwebsocket-api-java				install
 libwildmidi-config				install
 libwildmidi2:amd64				install
 libwind0-heimdal:amd64				install
-libwireshark-data				deinstall
+libwireshark-data				install
+libwireshark11:amd64				install
+libwiretap8:amd64				install
 libwmf0.2-7:amd64				install
 libwmf0.2-7-gtk					install
 libwnck-3-0:amd64				install
@@ -1702,6 +1708,8 @@ libwpd-0.10-10:amd64				install
 libwpg-0.3-3:amd64				install
 libwps-0.4-4:amd64				install
 libwrap0:amd64					install
+libwscodecs2:amd64				install
+libwsutil9:amd64				install
 libwww-mechanize-perl				install
 libwww-perl					install
 libwww-robotrules-perl				install
@@ -2417,6 +2425,9 @@ wget						install
 whiptail					install
 wireless-regdb					install
 wireless-tools					install
+wireshark					install
+wireshark-common				install
+wireshark-qt					install
 witalian					install
 wmctrl						install
 wngerman					install
