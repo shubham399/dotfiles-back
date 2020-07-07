@@ -2425,7 +2425,6 @@ wget						install
 whiptail					install
 wireless-regdb					install
 wireless-tools					install
-wireshark					install
 wireshark-common				install
 wireshark-qt					install
 witalian					install
