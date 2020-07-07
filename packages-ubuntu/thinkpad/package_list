@@ -98,6 +98,7 @@ caja-open-terminal				install
 caja-sendto					install
 caja-wallpaper					install
 casper						install
+cdbs						install
 cherrytree					install
 cifs-utils					install
 cinnamon-desktop-data				install
@@ -155,11 +156,15 @@ dcraw						install
 dctrl-tools					install
 debconf						install
 debconf-i18n					install
+debhelper					install
 debianutils					install
 default-jre					install
 default-jre-headless				install
 desktop-file-utils				install
+dh-autoreconf					install
 dh-python					install
+dh-strip-nondeterminism				install
+dh-translations					install
 dialog						install
 dictionaries-common				install
 diffstat					install
@@ -190,6 +195,7 @@ dpkg-dev					install
 dpkg-repack					install
 draxed						deinstall
 dunst						install
+dwz						install
 e2fslibs:amd64					install
 e2fsprogs					install
 ecryptfs-utils					install
@@ -911,6 +917,7 @@ libfile-desktopentry-perl			install
 libfile-fcntllock-perl				install
 libfile-listing-perl				install
 libfile-mimeinfo-perl				install
+libfile-stripnondeterminism-perl		install
 libfile-which-perl				install
 libflac++6v5:amd64				install
 libflac8:amd64					install
@@ -1396,6 +1403,7 @@ libparted-fs-resize0:amd64			install
 libparted2:amd64				install
 libpath-class-perl				install
 libpcap0.8:amd64				install
+libpcap0.8-dev:amd64				install
 libpcaudio0					install
 libpci3:amd64					install
 libpciaccess-dev:amd64				install
@@ -1560,6 +1568,7 @@ libsmartcols1:amd64				install
 libsmbclient:amd64				install
 libsmbios-c2					install
 libsmi2ldbl:amd64				install
+libsnacc0c2:amd64				install
 libsnappy1v5:amd64				install
 libsndfile1:amd64				install
 libsndio6.1:amd64				install
@@ -1695,7 +1704,9 @@ libwildmidi-config				install
 libwildmidi2:amd64				install
 libwind0-heimdal:amd64				install
 libwireshark-data				install
+libwireshark-dev				install
 libwireshark11:amd64				install
+libwiretap-dev					install
 libwiretap8:amd64				install
 libwmf0.2-7:amd64				install
 libwmf0.2-7-gtk					install
@@ -1709,6 +1720,7 @@ libwpg-0.3-3:amd64				install
 libwps-0.4-4:amd64				install
 libwrap0:amd64					install
 libwscodecs2:amd64				install
+libwsutil-dev					install
 libwsutil9:amd64				install
 libwww-mechanize-perl				install
 libwww-perl					install
@@ -2047,6 +2059,7 @@ obex-data-server				install
 ocl-icd-dev:amd64				install
 ocl-icd-libopencl1:amd64			install
 ocl-icd-opencl-dev:amd64			install
+omniidl						install
 onboard						install
 onboard-common					install
 opencl-c-headers				install
@@ -2106,6 +2119,7 @@ plymouth					install
 plymouth-label					install
 plymouth-theme-ubuntu-text			install
 pm-utils					install
+po-debconf					install
 policykit-1					install
 policykit-1-fingerprint-gui			install
 policykit-1-gnome				install
@@ -2172,6 +2186,7 @@ python-pbr					install
 python-pip					install
 python-pip-whl					install
 python-pkg-resources				install
+python-ply					install
 python-pyrex					install
 python-pyside.qtcore				install
 python-pyside.qtgui				install
@@ -2242,6 +2257,7 @@ python3-reportlab				install
 python3-reportlab-accel:amd64			install
 python3-requests				install
 python3-requests-unixsocket			install
+python3-scour					install
 python3-setproctitle:amd64			install
 python3-six					install
 python3-speechd					install
@@ -2302,6 +2318,7 @@ samba-common-bin				install
 samba-libs:amd64				install
 sane-utils					install
 sbsigntool					install
+scour						install
 scrollkeeper					install
 scrot						install
 secureboot-db					install
@@ -2319,6 +2336,7 @@ silversearcher-ag				install
 simple-scan					install
 slack-desktop					install
 slick-greeter					install
+snacc						install
 snapd						install
 socat						install
 sound-theme-freedesktop				install
@@ -2427,6 +2445,9 @@ wireless-regdb					install
 wireless-tools					install
 wireshark					install
 wireshark-common				install
+wireshark-dev					install
+wireshark-doc					install
+wireshark-gtk					install
 wireshark-qt					install
 witalian					install
 wmctrl						install
