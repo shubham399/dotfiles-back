@@ -2443,12 +2443,6 @@ wget						install
 whiptail					install
 wireless-regdb					install
 wireless-tools					install
-wireshark					install
-wireshark-common				install
-wireshark-dev					install
-wireshark-doc					install
-wireshark-gtk					install
-wireshark-qt					install
 witalian					install
 wmctrl						install
 wngerman					install
