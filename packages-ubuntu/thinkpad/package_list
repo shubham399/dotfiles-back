@@ -464,6 +464,7 @@ golang-go					install
 golang-src					install
 google-chrome-stable				install
 google-cloud-sdk				install
+gparted						install
 gpg						install
 gpg-agent					install
 gpg-wks-client					install
