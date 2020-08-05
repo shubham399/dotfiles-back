@@ -1220,8 +1220,6 @@ liblist-moreutils-perl				install
 libllvm10:amd64					install
 libllvm10:i386					install
 libllvm6.0:amd64				install
-libllvm9:amd64					install
-libllvm9:i386					install
 liblocale-gettext-perl				install
 liblog4c3					deinstall
 liblouis-data					install
