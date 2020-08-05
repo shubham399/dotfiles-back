@@ -1217,6 +1217,8 @@ liblightdm-gobject-1-0:amd64			install
 liblilv-0-0					install
 liblirc-client0:amd64				install
 liblist-moreutils-perl				install
+libllvm10:amd64					install
+libllvm10:i386					install
 libllvm6.0:amd64				install
 libllvm9:amd64					install
 libllvm9:i386					install
@@ -1335,6 +1337,7 @@ libnet-smtp-ssl-perl				install
 libnet-ssleay-perl				install
 libnetfilter-conntrack3:amd64			install
 libnetpbm10					install
+libnetplan0:amd64				install
 libnettle6:amd64				install
 libnewt0.52:amd64				install
 libnfnetlink0:amd64				install
@@ -1570,6 +1573,7 @@ libsmbclient:amd64				install
 libsmbios-c2					install
 libsmi2ldbl:amd64				install
 libsnacc0c2:amd64				install
+libsnapd-glib1:amd64				install
 libsnappy1v5:amd64				install
 libsndfile1:amd64				install
 libsndio6.1:amd64				install
@@ -1889,6 +1893,7 @@ libzeitgeist-2.0-0:amd64			install
 libzip4:amd64					install
 libzmq5:amd64					install
 libzstd1:amd64					install
+libzstd1:i386					install
 libzvbi-common					install
 libzvbi0:amd64					install
 light						install
