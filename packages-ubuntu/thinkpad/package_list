@@ -558,6 +558,7 @@ i3blocks					install
 i3lock						install
 i3status					deinstall
 i965-va-driver:amd64				install
+ibus						install
 icu-devtools					install
 ideviceinstaller				install
 idle-python2.7					install
@@ -1783,6 +1784,7 @@ libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
 libxcb-xrm0:amd64				install
+libxcb-xtest0:amd64				install
 libxcb-xv0:amd64				install
 libxcb1:amd64					install
 libxcb1:i386					install
@@ -2606,5 +2608,6 @@ zip						install
 zlib1g:amd64					install
 zlib1g:i386					install
 zlib1g-dev:amd64				install
+zoom						install
 zsh						install
 zsh-common					install
