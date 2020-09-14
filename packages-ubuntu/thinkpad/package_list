@@ -107,6 +107,7 @@ cmake						install
 cmake-data					install
 cmdtest						install
 code						deinstall
+codium						install
 colord						install
 colord-data					install
 command-not-found				install
