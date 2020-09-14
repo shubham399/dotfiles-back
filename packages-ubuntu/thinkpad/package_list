@@ -106,7 +106,7 @@ cli-common					install
 cmake						install
 cmake-data					install
 cmdtest						install
-code						install
+code						deinstall
 colord						install
 colord-data					install
 command-not-found				install
