@@ -97,6 +97,7 @@ caja-extensions-common				install
 caja-open-terminal				install
 caja-sendto					install
 caja-wallpaper					install
+cargo						install
 casper						install
 cdbs						install
 cherrytree					install
@@ -1129,6 +1130,7 @@ libhttp-daemon-perl				install
 libhttp-date-perl				install
 libhttp-message-perl				install
 libhttp-negotiate-perl				install
+libhttp-parser2.7.1:amd64			install
 libhttp-server-simple-perl			install
 libhunspell-1.6-0:amd64				install
 libhx509-5-heimdal:amd64			install
@@ -1616,11 +1618,14 @@ libsratom-0-0:amd64				install
 libsrtp2-1:amd64				install
 libss2:amd64					install
 libssh-gcrypt-4:amd64				install
+libssh2-1:amd64					install
 libssl-dev:amd64				install
 libssl1.0.0:amd64				install
 libssl1.1:amd64					install
 libssl1.1:i386					deinstall
 libstartup-notification0:amd64			install
+libstd-rust-1.43:amd64				install
+libstd-rust-dev:amd64				install
 libstdc++-7-dev:amd64				install
 libstdc++6:amd64				install
 libstdc++6:i386					install
@@ -2340,6 +2345,7 @@ rpm2cpio					install
 rsync						install
 rsyslog						install
 rtkit						install
+rustc						install
 rxvt-unicode					install
 samba						install
 samba-common					install
