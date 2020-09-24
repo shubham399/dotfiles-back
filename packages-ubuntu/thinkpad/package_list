@@ -370,6 +370,7 @@ geoclue-2.0					install
 geoip-database					install
 gettext						install
 gettext-base					install
+gh						install
 ghc						install
 ghostscript					install
 ghostscript-x					install
