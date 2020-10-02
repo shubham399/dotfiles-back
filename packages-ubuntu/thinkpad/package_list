@@ -337,6 +337,7 @@ fonts-tlwg-waree-ttf				install
 fonts-ubuntu					install
 fonts-wqy-microhei				install
 foomatic-db-compressed-ppds			install
+fprint-demo					install
 fprintd						install
 franz						deinstall
 friendly-recovery				install
