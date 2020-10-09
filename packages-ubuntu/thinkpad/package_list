@@ -90,6 +90,7 @@ busybox-static					install
 bzip2						install
 ca-certificates					install
 ca-certificates-java				install
+cabextract					install
 caja						install
 caja-admin					install
 caja-common					install
@@ -227,6 +228,7 @@ firefox						install
 firefox-locale-en				install
 flatpak						install
 flex						install
+fluid-soundfont-gs				install
 folder-color-switcher				install
 fontconfig					install
 fontconfig-config				install
@@ -393,9 +395,11 @@ gir1.2-dee-1.0					install
 gir1.2-flatpak-1.0:amd64			install
 gir1.2-freedesktop:amd64			install
 gir1.2-gconf-2.0				install
+gir1.2-gdesktopenums-3.0:amd64			install
 gir1.2-gdkpixbuf-2.0:amd64			install
 gir1.2-glib-2.0:amd64				install
 gir1.2-gnomebluetooth-1.0:amd64			install
+gir1.2-gnomedesktop-3.0:amd64			install
 gir1.2-gst-plugins-base-1.0:amd64		install
 gir1.2-gstreamer-1.0:amd64			install
 gir1.2-gtk-3.0:amd64				install
@@ -1033,6 +1037,7 @@ libgmp3-dev					install
 libgmpxx4ldbl:amd64				install
 libgnome-2-0:amd64				install
 libgnome-bluetooth13:amd64			install
+libgnome-desktop-3-17:amd64			install
 libgnome-keyring-common				install
 libgnome-keyring0:amd64				install
 libgnome2-canvas-perl				install
@@ -1326,6 +1331,7 @@ libmpfr6:amd64					install
 libmpg123-0:amd64				install
 libmplex2-2.1-0					install
 libmpx2:amd64					install
+libmspack0:amd64				install
 libmspub-0.1-1:amd64				install
 libmtdev1:amd64					install
 libmtp-common					install
@@ -1957,6 +1963,7 @@ lsof						install
 ltrace						install
 lua5.2						install
 lupin-casper					install
+lutris						install
 lvm2						install
 lxappearance					install
 m4						install
@@ -2266,6 +2273,7 @@ python3-dbus					install
 python3-debian					install
 python3-defer					install
 python3-dev					install
+python3-distro					install
 python3-distutils				install
 python3-evdev					install
 python3-gdbm:amd64				install
