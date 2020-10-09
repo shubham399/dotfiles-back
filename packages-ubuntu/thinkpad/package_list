@@ -568,6 +568,7 @@ i3lock						install
 i3status					deinstall
 i965-va-driver:amd64				install
 ibus						install
+icoutils					install
 icu-devtools					install
 ideviceinstaller				install
 idle-python2.7					install
@@ -1742,6 +1743,7 @@ libwebsocket-api-java				install
 libwildmidi-config				install
 libwildmidi2:amd64				install
 libwind0-heimdal:amd64				install
+libwine-development:amd64			install
 libwireshark-data				install
 libwireshark-dev				install
 libwireshark11:amd64				install
@@ -1766,6 +1768,7 @@ libwww-perl					install
 libwww-robotrules-perl				install
 libwxbase3.0-0v5:amd64				install
 libwxgtk3.0-0v5:amd64				install
+libwxgtk3.0-gtk3-0v5:amd64			install
 libx11-6:amd64					install
 libx11-6:i386					install
 libx11-data					install
@@ -2148,6 +2151,7 @@ pix						install
 pix-data					install
 pix-dbg						install
 pkg-config					install
+playonlinux					install
 plymouth					install
 plymouth-label					install
 plymouth-theme-ubuntu-text			install
@@ -2235,6 +2239,8 @@ python-tdb					install
 python-tk					install
 python-trollius					install
 python-ttystatus				install
+python-wxgtk3.0					install
+python-wxversion				install
 python-xdg					install
 python-xlib					install
 python-yaml					install
@@ -2476,7 +2482,9 @@ wbritish					install
 wfrench						install
 wget						install
 whiptail					install
+wine-development				install
 wine-stable					deinstall
+wine64-development				install
 wireless-regdb					install
 wireless-tools					install
 wireshark					install
