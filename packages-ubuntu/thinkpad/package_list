@@ -1394,6 +1394,7 @@ liboobs-1-5					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenexr22:amd64				install
+libopengl-dev:amd64				install
 libopengl0:amd64				install
 libopenjp2-7:amd64				install
 libopenmpt0:amd64				install
@@ -1721,6 +1722,7 @@ libvpx5:amd64					install
 libvte-2.91-0:amd64				install
 libvte-2.91-common				install
 libvulkan1:amd64				install
+libvulkan1:i386					install
 libwacom-bin					install
 libwacom-common					install
 libwacom2:amd64					install
@@ -1817,6 +1819,7 @@ libxcb-sync1:amd64				install
 libxcb-sync1:i386				install
 libxcb-util1:amd64				install
 libxcb-xfixes0:amd64				install
+libxcb-xfixes0:i386				install
 libxcb-xfixes0-dev:amd64			install
 libxcb-xinerama0:amd64				install
 libxcb-xkb1:amd64				install
