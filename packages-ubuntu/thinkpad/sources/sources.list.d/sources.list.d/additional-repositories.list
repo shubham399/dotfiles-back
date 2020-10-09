@@ -1,2 +1,3 @@
 deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
 deb https://cli.github.com/packages bionic main
+deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main
