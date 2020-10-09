@@ -919,6 +919,7 @@ libfaad2:amd64					install
 libfakekey0:amd64				install
 libfakeroot:amd64				install
 libfastjson4:amd64				install
+libfaudio0:amd64				install
 libfcgi-perl					install
 libfdisk1:amd64					install
 libffi-dev:amd64				install
