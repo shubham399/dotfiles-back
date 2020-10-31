@@ -2099,6 +2099,7 @@ mlocate						install
 mobile-broadband-provider-info			install
 modemmanager					install
 mokutil						install
+mongodb-compass					install
 mongodb-org					install
 mongodb-org-mongos				install
 mongodb-org-server				install
