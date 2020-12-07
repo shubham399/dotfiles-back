@@ -217,6 +217,7 @@ exfat-fuse					install
 exfat-utils					install
 exo-utils					install
 exuberant-ctags					install
+fail2ban					install
 fakeroot					install
 fastboot					install
 fdisk						install
