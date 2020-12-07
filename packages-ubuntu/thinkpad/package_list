@@ -2704,7 +2704,7 @@ yelp						install
 yelp-xsl					install
 zenity						install
 zenity-common					install
-zerotier-one					install
+zerotier-one					deinstall
 zip						install
 zlib1g:amd64					install
 zlib1g:i386					install
