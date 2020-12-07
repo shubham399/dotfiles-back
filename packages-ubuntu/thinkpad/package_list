@@ -633,6 +633,7 @@ libacl1:amd64					install
 libamd2:amd64					install
 libao-common					install
 libao4:amd64					install
+libaom0:amd64					install
 libapache2-mod-php7.2				install
 libapparmor1:amd64				install
 libapparmor1:i386				install
@@ -692,10 +693,12 @@ libavahi-core7:amd64				install
 libavahi-glib1:amd64				install
 libavc1394-0:amd64				install
 libavcodec57:amd64				install
+libavcodec58:amd64				install
 libavfilter6:amd64				install
 libavformat57:amd64				install
 libavresample3:amd64				install
 libavutil55:amd64				install
+libavutil56:amd64				install
 libbabeltrace1:amd64				install
 libbabl-0.1-0:amd64				install
 libbind9-160:amd64				install
@@ -785,6 +788,7 @@ libclutter-1.0-0:amd64				install
 libclutter-gst-3.0-0:amd64			install
 libclutter-gtk-1.0-0:amd64			install
 libcmis-0.5-5v5					install
+libcodec2-0.7:amd64				install
 libcogl-pango20:amd64				install
 libcogl-path20:amd64				install
 libcogl20:amd64					install
@@ -931,6 +935,7 @@ libfastjson4:amd64				install
 libfaudio0:amd64				install
 libfcgi-perl					install
 libfdisk1:amd64					install
+libfdk-aac1:amd64				install
 libffi-dev:amd64				install
 libffi6:amd64					install
 libffi6:i386					install
@@ -1696,6 +1701,7 @@ libsub-name-perl				install
 libsuil-0-0:amd64				install
 libsuitesparseconfig5:amd64			install
 libswresample2:amd64				install
+libswresample3:amd64				install
 libswscale4:amd64				install
 libsystemd0:amd64				install
 libsystemd0:i386				install
@@ -2344,6 +2350,7 @@ python3-icu					install
 python3-idna					install
 python3-lib2to3					install
 python3-louis					install
+python3-magic					install
 python3-mako					install
 python3-markupsafe				install
 python3-minimal					install
