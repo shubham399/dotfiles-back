@@ -209,6 +209,7 @@ emacsen-common					install
 enchant						install
 engrampa					install
 engrampa-common					install
+ent						install
 espeak-ng-data:amd64				install
 ethtool						install
 evolution-data-server				install
