@@ -1278,8 +1278,6 @@ liblightdm-gobject-1-0:amd64			install
 liblilv-0-0					install
 liblirc-client0:amd64				install
 liblist-moreutils-perl				install
-libllvm10:amd64					install
-libllvm10:i386					install
 libllvm11:amd64					install
 libllvm11:i386					install
 libllvm6.0:amd64				install
