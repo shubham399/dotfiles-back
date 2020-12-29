@@ -2524,6 +2524,7 @@ ucf						install
 udev						install
 udisks2						install
 ufw						install
+unattended-upgrades				install
 uno-libs3					install
 unzip						install
 update-inetd					install
