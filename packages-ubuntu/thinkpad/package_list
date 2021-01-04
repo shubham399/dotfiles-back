@@ -413,6 +413,7 @@ gir1.2-ibus-1.0:amd64				install
 gir1.2-javascriptcoregtk-3.0:amd64		install
 gir1.2-javascriptcoregtk-4.0:amd64		install
 gir1.2-json-1.0:amd64				install
+gir1.2-keybinder-3.0				install
 gir1.2-mate-desktop				install
 gir1.2-mate-panel				install
 gir1.2-matedesktop-2.0:amd64			install
@@ -503,6 +504,7 @@ gstreamer1.0-plugins-bad:amd64			install
 gstreamer1.0-plugins-base:amd64			install
 gstreamer1.0-plugins-base-apps			install
 gstreamer1.0-plugins-good:amd64			install
+gstreamer1.0-plugins-ugly:amd64			install
 gstreamer1.0-pulseaudio:amd64			install
 gstreamer1.0-tools				install
 gstreamer1.0-x:amd64				install
@@ -611,6 +613,7 @@ java-common					install
 jfsutils					install
 jose						install
 jq						install
+kazam						install
 kbd						install
 kerneloops					install
 keyboard-configuration				install
@@ -627,6 +630,7 @@ language-pack-gnome-en				install
 language-pack-gnome-en-base			install
 laptop-detect					install
 less						install
+liba52-0.7.4:amd64				install
 libaa1:amd64					install
 libabw-0.1-1:amd64				install
 libaccountsservice0:amd64			install
@@ -1368,6 +1372,7 @@ libmpc-dev:amd64				install
 libmpc3:amd64					install
 libmpcdec6:amd64				install
 libmpdec2:amd64					install
+libmpeg2-4:amd64				install
 libmpeg2encpp-2.1-0				install
 libmpfr-dev:amd64				install
 libmpfr6:amd64					install
@@ -1439,6 +1444,8 @@ liboobs-1-5					install
 libopenal-data					install
 libopenal1:amd64				install
 libopenal1:i386					install
+libopencore-amrnb0:amd64			install
+libopencore-amrwb0:amd64			install
 libopenexr22:amd64				install
 libopengl-dev:amd64				install
 libopengl0:amd64				install
@@ -1645,6 +1652,7 @@ libsgutils2-2					install
 libshiboken1.2v5:amd64				install
 libshine3:amd64					install
 libshout3:amd64					install
+libsidplay1v5:amd64				install
 libsigc++-2.0-0v5:amd64				install
 libsigsegv2:amd64				install
 libslang2:amd64					install
