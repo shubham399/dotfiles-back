@@ -2352,11 +2352,13 @@ python3-evdev					install
 python3-gdbm:amd64				install
 python3-gi					install
 python3-gi-cairo				install
+python3-html5lib				install
 python3-httplib2				install
 python3-icu					install
 python3-idna					install
 python3-lib2to3					install
 python3-louis					install
+python3-lxml:amd64				install
 python3-magic					install
 python3-mako					install
 python3-markupsafe				install
@@ -2385,6 +2387,7 @@ python3-systemd					install
 python3-urllib3					install
 python3-venv					install
 python3-virtualenv				install
+python3-webencodings				install
 python3-xapp					install
 python3-xdg					install
 python3-xkit					install
@@ -2616,6 +2619,7 @@ xbacklight					install
 xbitmaps					install
 xbrlapi						install
 xclip						install
+xcompmgr					install
 xdg-desktop-portal				install
 xdg-desktop-portal-gtk				install
 xdg-user-dirs					install
