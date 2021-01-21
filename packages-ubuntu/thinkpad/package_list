@@ -2469,6 +2469,7 @@ speech-dispatcher-espeak-ng			install
 sqlite3						install
 squashfs-tools					install
 ssh-askpass-gnome				install
+sshpass						install
 ssl-cert					install
 steam:i386					install
 strace						install
