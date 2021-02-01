@@ -157,10 +157,10 @@ bar {
 # window rules, you can find the window class using xprop
 for_window [class=".*"] border pixel 4
 assign [class=URxvt] 1
-assign [class=Atom window_role="browser-window"] 2
+assign [class=Code window_role="browser-window"] 2
 assign [class=Google-chrome] 4
 assign [class=Postman] 5
-assign [class=Firefox] 7
+assign [class=Firefox] 4
 assign [class=Station|Franz] 8
 for_window [class = "Spotify"] move to workspace 9
 for_window [class=Viewnior|feh|Audacious|File-roller|Lxappearance|Lxtask|Pavucontrol] floating enable
