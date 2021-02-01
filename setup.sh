@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo apt install i3 i3blocks i3status hsetroot rofi xclip -y
 DIR=$(dirname $0)
 cd $DIR
 C_PATH=$(pwd)
