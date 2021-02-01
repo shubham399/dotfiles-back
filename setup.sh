@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install i3 i3blocks i3status hsetroot rofi xclip -y
+sudo apt install i3 i3blocks i3-wm dunst i3lock compton rxvt-unicode xsel  fonts-noto fonts-mplus xsettingsd lxappearance scrot viewnior suckless-tools i3status hsetroot rofi xclip -y
 DIR=$(dirname $0)
 cd $DIR
 C_PATH=$(pwd)
