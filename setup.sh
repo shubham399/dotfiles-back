@@ -10,7 +10,7 @@ C_PATH=$(pwd)
 # Link wallpaper
 rm $HOME/.wallpaper.png
 ln -s $C_PATH/Wallpapers/wallpaper.png $HOME/.wallpaper.png
-
+ln -s $C_PATH/Xresources $HOME/.Xresources
 rm $HOME/.scripts
 ln -s $C_PATH/scripts $HOME/.scripts
 rm $C_PATH/scripts/monitor.sh
