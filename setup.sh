@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install zsh tmux curl cargo
+sudo apt install zsh tmux curl cargo safeeyes
 cargo install alacritty
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm

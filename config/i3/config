@@ -18,6 +18,7 @@ exec --no-startup-id nitrogen --restore;sleep 1;compton  -b
 #exec --no-startup-id i3-msg 'exec /usr/bin/firefox'
 exec --no-startup-id redshift-gtk
 exec --no-startup-id rescuetime
+exec --no-startup-id safeeyes
 exec --no-startup-id xset r rate 200 25
 exec --no-startup-id ~/.scripts/hdmi-status.sh
 #exec --no-startup-id i3-msg 'workspace 9;exec /snap/bin/spotify'
