@@ -32,7 +32,7 @@ bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:si
 bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
 
 # common apps keybinds
-bindsym Print exec "shutter --disable_systray -a -n   -o '~/Pictures/Screenshot/%y-%m-%d_$w_$h.png' -e"
+bindsym Print exec "/bin/flameshot full -p ~/Pictures/Screenshot"
 bindsym Shift+Print "exec /bin/flameshot gui"
 
 
