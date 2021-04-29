@@ -20,7 +20,7 @@ exec --no-startup-id redshift-gtk
 exec --no-startup-id rescuetime
 exec --no-startup-id safeeyes
 exec --no-startup-id xset r rate 200 25
-exec --no-startup-id ~/.scripts/hdmi-status.sh
+#exec --no-startup-id ~/.scripts/hdmi-status.sh
 #exec --no-startup-id i3-msg 'workspace 9;exec /snap/bin/spotify'
 # start a terminal
 bindsym $super+Return exec alacritty
@@ -33,7 +33,7 @@ bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show dru
 
 # common apps keybinds
 bindsym Print exec "shutter --disable_systray -a -n   -o '~/Pictures/Screenshot/%y-%m-%d_$w_$h.png' -e"
-bindsym Shift+Print "exec shutter -s -n -e -o  '~/Pictures/Screenshot/%y-%m-%d_$w_$h.png'"
+bindsym Shift+Print "exec /bin/flameshot gui"
 
 
 
