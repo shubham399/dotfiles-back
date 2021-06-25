@@ -1,6 +1,7 @@
+alias vim="nvim"
 # Only in linux
-alias pbcopy='xclip -selection clipboard'
-alias pbpaste='xclip -selection clipboard -o'
+#alias pbcopy='xclip -selection clipboard'
+#alias pbpaste='xclip -selection clipboard -o'
 alias uuid=' tr -dc A-Za-z0-9 </dev/urandom | head -c 2000| md5sum | cut -c1-30'
 # general
 alias d='dirs -v | head -10'
@@ -49,4 +50,8 @@ ot(){
 ## Kubernetes Shell
 kshell(){
  kubectl exec -it $1 -- bash
+}
+
+isup(){
+	curl -s https://isitup.org/$1 | egrep -o '(Yay, .* is up)|(Oh no .* is down!)' | uniq
 }
