@@ -1,8 +1,8 @@
 [commit]
 	gpgsign = false
 [user]
-	signingkey = EB1AD637E403F33155AC3C5D6C6F63BDABA908DA
-	email = hello@shubhkumar.in
+	signingkey = 72FDA92C047F61B1A867949E6DE84995F112C85A
+        email = hello@shubhkumar.in
 	name = Shubham Kumar
 [gpg]
 	program = gpg
@@ -15,6 +15,7 @@
     show = delta
 
 [delta]
+    side-by-side = true
     plus-style = "syntax #012800"
     minus-style = "syntax #340001"
     syntax-theme = Monokai Extended
