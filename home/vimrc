@@ -23,32 +23,17 @@ set undolevels=1000
 set backspace=indent,eol,start
 
 call plug#begin()
-Plug 'ternjs/tern_for_vim', {'do':'npm install'}
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'purescript-contrib/purescript-vim'
-Plug 'dense-analysis/ale'
-Plug 'FrigoEU/psc-ide-vim'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'JamshedVesuna/vim-markdown-preview'
-Plug 'maksimr/vim-jsbeautify'
-Plug 'scrooloose/nerdtree'          " File tree manager
-Plug 'jistr/vim-nerdtree-tabs'      " enhance nerdtree's tabs
-"Plug 'ryanoasis/vim-devicons'       " add beautiful icons besides files
-Plug 'Xuyuanp/nerdtree-git-plugin'  " display git status within Nerdtree
-"Plug 'tiagofumo/vim-nerdtree-syntax-highlight' " enhance devicons
-"Plug 'joshdick/onedark.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'martinda/Jenkinsfile-vim-syntax'
-Plug 'preservim/nerdcommenter'
 call plug#end()
 autocmd FileType javascript set formatprg=prettier\ --stdin
 syntax on
 "colorscheme onedark
 filetype on
 filetype plugin indent on
-helptags ~/.vim/plugged/psc-ide-vim/doc
-let g:ctrlp_working_path_mode = 'ra'
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
 ".vimrc
 autocmd FileType javascript vnoremap <buffer>  <c-f> :call RangeJsBeautify()<cr>
 autocmd FileType json vnoremap <buffer> <c-f> :call RangeJsonBeautify()<cr>
@@ -57,38 +42,6 @@ autocmd FileType html vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
 autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr>
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-" NerdTree Configurtaions
-map <C-n> :NERDTreeToggle<CR>
-"let g:NERDTreeChDirMode = 2  "Change current folder as root
-let NERDTreeQuitOnOpen=1   " Close NERDtree when files was opened
-"let NERDTreeMinimalUI=1    " Start NERDTree in minimal UI mode (No help lines)
-"let NERDTreeChDirMode=2    " Change current working directory based on root directory in NERDTree
-let g:NERDTreeHidden=1     " Don't show hidden files
-let NERDTreeWinSize=30     " Initial NERDTree width
-"let NERDTreeAutoDeleteBuffer = 1  " Auto delete buffer deleted with NerdTree
-"let NERDTreeShowBookmarks=0   " Show NERDTree bookmarks
-"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
-map <F2> :NERDTreeToggle<cr>
-let NERDTreeMapOpenInTab='<a-ENTER>'
-
-"Nerd Tree Git
-
-let g:NERDTreeIndicatorMapCustom = {
-        \ "Modified"  : "✹",
-        \ "Staged"    : "✚",
-        \ "Untracked" : "✭",
-        \ "Renamed"   : "➜",
-        \ "Unmerged"  : "═",
-        \ "Deleted"   : "✖",
-        \ "Dirty"     : "✗",
-        \ "Clean"     : "✔︎",
-        \ 'Ignored'   : '☒',
-        \ "Unknown"   : "?"
-        \   }
-" Nerd Tree Tab
-"let g:nerdtree_tabs_open_on_console_startup=1 "Auto-open Nerdtree-tabs on VIM enter
 
 "Tabs
 map <C-t><C-up> :tabr<cr>
@@ -96,30 +49,12 @@ map <C-t><C-down> :tabl<cr>
 map <C-t><C-left> :tabp<cr>
 map <C-t><C-right> :tabn<cr>
 
+" Map Ctrl+P to Gfiles
+nnoremap <C-p> :GFiles<Cr>
 "Split
 "map <C-h> :
 
-"
-let g:psc_ide_syntastic_mode=1
-
-nmap <leader>L :Plist<CR>
-nmap <leader>l :Pload!<CR>
-nmap <leader>r :Prebuild!<CR>
-nmap <leader>f :PaddClause<CR>
-nmap <leader>t :PaddType<CR>
-nmap <leader>a :Papply<CR>
-nmap <leader>A :Papply!<CR>
-nmap <leader>C :Pcase!<CR>
-nmap <leader>i :Pimport<CR>
-nmap <leader>qa :PaddImportQualifications<CR>
-nmap <leader>g :Pgoto<CR>
-nmap <leader>p :Pursuit<CR>
-nmap <leader>T :Ptype<CR>
 
 filetype plugin on
 set omnifunc=syntaxcomplete#complete
 
-"changes cursor shape according to active mode
-let &t_SI = "\[6 q"
-let &t_SR = "\[4 q"
-let &t_EI = "\[2 q"
