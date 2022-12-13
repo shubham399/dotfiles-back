@@ -1,5 +1,5 @@
 [commit]
-	gpgsign = false
+	gpgsign = true
 [user]
 	signingkey = 72FDA92C047F61B1A867949E6DE84995F112C85A
         email = hello@shubhkumar.in
@@ -23,3 +23,9 @@
 
 [interactive]
     diffFilter = delta --color-only
+[pull]
+	rebase = false
+[alias]
+lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'
+lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+lg = !"git lg1"
