@@ -18,7 +18,8 @@ set smarttab
 set softtabstop=4
 
 set ruler
-
+set swapfile
+set dir=/tmp/
 set undolevels=1000
 set backspace=indent,eol,start
 
